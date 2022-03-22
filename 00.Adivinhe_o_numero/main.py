@@ -8,9 +8,9 @@ def jogo():
     tentativa = 0
     print("\nEstou pensando em um número de 1 a 100, pode adivinhar qual é?")
 
-    chute=0
+    chute = 0
     while chute is not resposta:
-        tentativa +=1
+        tentativa += 1
         chute = int(input("Qual seu chute: "))
         if chute > resposta:
             print("Errou! É um valor menor que ", chute)
